@@ -8,13 +8,14 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ![Dashboard Preview](./screenshots/dashboard.png)
-*Screenshot coming soon*
+_Screenshot coming soon_
 
 ---
 
 ## 📋 Problem Statement
 
 Managing personal finances can be overwhelming without the right tools. Users need:
+
 - **Clear visibility** into their financial status at a glance
 - **Detailed transaction tracking** with easy filtering and search
 - **Actionable insights** to understand spending patterns
@@ -27,12 +28,14 @@ SpendWise addresses these challenges with an elegant, user-friendly dashboard th
 ## 🎯 Features
 
 ### 📊 Dashboard Overview
+
 - **Financial Summary Cards**: Total balance, income, and expenses at a glance
 - **Visual Charts**: Interactive spending breakdowns and trend analysis
 - **Quick Stats**: Transaction counts, category distribution, savings rate
 - **Responsive Design**: Seamless experience across desktop, tablet, and mobile
 
 ### 💳 Transaction Management
+
 - **Comprehensive List**: All transactions with detailed information
 - **Advanced Filtering**: Filter by date, category, type (income/expense)
 - **Smart Search**: Quickly find specific transactions
@@ -40,17 +43,20 @@ SpendWise addresses these challenges with an elegant, user-friendly dashboard th
 - **Add/Edit/Delete**: Full CRUD operations (Admin role only)
 
 ### 🔐 Role-Based Access Control
+
 - **Admin Mode**: Full access to add, edit, and delete transactions
 - **Viewer Mode**: Read-only access to view data and insights
 - **Easy Toggle**: Switch between roles seamlessly
 
 ### 📈 Insights & Analytics
+
 - **Spending Patterns**: Identify where your money goes
 - **Category Breakdown**: Visual representation of spending by category
 - **Monthly Comparisons**: Track changes over time
 - **Financial Health Metrics**: Savings rate, debt ratio, and more
 
 ### 🎨 Additional Features
+
 - **Dark/Light Mode**: Choose your preferred theme
 - **Smooth Animations**: Powered by Framer Motion for delightful interactions
 - **Data Export**: Download transactions as CSV
@@ -61,22 +67,27 @@ SpendWise addresses these challenges with an elegant, user-friendly dashboard th
 ## 🛠️ Tech Stack
 
 **Frontend Framework**
+
 - ⚛️ React 18.3.1 - Component-based UI library
 - ⚡ Vite - Lightning-fast build tool and dev server
 
 **Styling & UI**
+
 - 🎨 Tailwind CSS 3.4 - Utility-first CSS framework
 - 💫 Framer Motion - Smooth animations and transitions
 - 🎭 Lucide React - Beautiful icon library
 
 **State Management**
+
 - 🐻 Zustand - Lightweight state management
 - 💾 localStorage - Persistent client-side storage
 
 **Data Visualization**
+
 - 📊 Recharts - Composable charting library
 
 **Development Tools**
+
 - 📝 ESLint - Code quality and consistency
 - 🔧 Vite - Modern build tooling
 
@@ -85,17 +96,21 @@ SpendWise addresses these challenges with an elegant, user-friendly dashboard th
 ## 🏗️ Architecture & Approach
 
 ### Component-Based Design
+
 The application follows a modular component architecture:
+
 - **Pages**: Main views (Overview, Transactions, Charts, Insights)
 - **Components**: Reusable UI components (Sidebar, Cards, Modals)
 - **Layout**: Consistent app structure with navigation
 
 ### State Management
+
 - **Zustand Store**: Centralized state for transactions, user role, theme preferences
 - **Local Storage**: Automatic persistence of user data and preferences
 - **Reactive Updates**: UI updates automatically when state changes
 
 ### Data Handling
+
 - **Mock Data**: Pre-populated sample transactions for demonstration
 - **Local State**: All operations happen client-side
 - **Data Structure**: Organized transaction objects with categories, dates, and amounts
@@ -134,23 +149,27 @@ Zorvyn/
 ## 🚀 Setup Instructions
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ADITYA-J1/Spend-Wise.git
    cd Spend-Wise
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -179,20 +198,24 @@ npm run preview
 ## 📸 Screenshots
 
 ### Dashboard Overview
+
 ![Dashboard](./screenshots/overview.png)
-*Financial summary with charts and quick stats*
+_Financial summary with charts and quick stats_
 
 ### Transactions
-![Transactions](./screenshots/transactions.png)
-*Complete transaction list with filtering and search*
+
+![Transactions](./screenshots/transactions.png?raw=true)
+_Complete transaction list with filtering and search_
 
 ### Insights
-![Insights](./screenshots/insights.png)
-*Spending patterns and analytics*
+
+![Insights](./screenshots/insights.png?raw=true)
+_Spending patterns and analytics_
 
 ### Dark Mode
+
 ![Dark Mode](./screenshots/dark-mode.png)
-*Sleek dark theme support*
+_Sleek dark theme support_
 
 ---
 
@@ -226,6 +249,7 @@ npm run preview
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to:
+
 - 🐛 Report bugs
 - 💡 Suggest new features
 - 🔧 Submit pull requests
@@ -241,6 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Aditya Jain**
+
 - GitHub: [@ADITYA-J1](https://github.com/ADITYA-J1)
 - Project: [SpendWise Dashboard](https://github.com/ADITYA-J1/Spend-Wise)
 
