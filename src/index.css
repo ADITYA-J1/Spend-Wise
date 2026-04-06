@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+}
+
+.light {
+  --text-primary: #0f0a1e;
+  --text-secondary: #4a4560;
+  --text-muted: #7a7490;
+  --surface: rgba(0, 0, 0, 0.05);
+  --surface-hover: rgba(0, 0, 0, 0.08);
+  --border: rgba(0, 0, 0, 0.1);
+  --border-hover: rgba(0, 0, 0, 0.18);
+  background: #f8f7ff;
+}
+.dark {
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.45);
+  --surface: rgba(255, 255, 255, 0.035);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.07);
+  --border-hover: rgba(255, 255, 255, 0.15);
+  background: radial-gradient(
+    ellipse at 20% 0%,
+    #071428 0%,
+    #040d1a 35%,
+    #020810 70%,
+    #000000 100%
+  );
+}
+
+/* Custom thin purple scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 85, 247, 0.3);
+  border-radius: 4px;
+}
+
+/* Remove number input spinners */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Select options dark background */
+select option {
+  background: #1a0a2e;
+  color: white;
+}
+
+/* Home page responsive grid styles */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 60px 24px !important;
+  }
+  .home-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .home-grid-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .home-stats-box:nth-child(1),
+  .home-stats-box:nth-child(2) {
+    border-bottom: 1px solid var(--border);
+  }
+  .home-stats-box:nth-child(2),
+  .home-stats-box:nth-child(4) {
+    border-right: none !important;
+  }
+}
